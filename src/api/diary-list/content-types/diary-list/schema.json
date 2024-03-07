@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "diary_lists",
+  "info": {
+    "singularName": "diary-list",
+    "pluralName": "diary-lists",
+    "displayName": "diaryList",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "emotion": {
+      "type": "string"
+    },
+    "month": {
+      "type": "integer"
+    },
+    "day": {
+      "type": "integer"
+    },
+    "content": {
+      "type": "text"
+    },
+    "color": {
+      "type": "string"
+    },
+    "weather": {
+      "type": "string"
+    }
+  }
+}
