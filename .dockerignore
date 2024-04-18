@@ -1,0 +1,9 @@
+build
+app/node_modules
+.idea
+*.cache
+*.md
+.git
+.tmp/
+app/env
+app/.env
