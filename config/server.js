@@ -8,5 +8,5 @@ module.exports = ({ env }) => ({
     populateRelations: env.bool("WEBHOOKS_POPULATE_RELATIONS", false),
   },
   proxy: true,
-  url: "https://mybackend.emogeediary.site",
+  // url: "https://mybackend.emogeediary.site",
 });
