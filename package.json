@@ -9,8 +9,8 @@
   },
   "scripts": {
     "build": "strapi build",
-    "develop": "strapi develop",
-    "start": "strapi start",
+    "develop": "dotenv -e .env.development strapi develop",
+    "start": "dotenv -e .env.production strapi start",
     "strapi": "strapi"
   },
   "dependencies": {
@@ -18,13 +18,16 @@
     "@strapi/plugin-i18n": "4.20.2",
     "@strapi/plugin-users-permissions": "4.20.2",
     "@strapi/strapi": "4.20.2",
+    "dotenv": "^16.4.5",
     "mysql": "2.18.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "5.3.4",
     "styled-components": "5.3.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "dotenv-cli": "^7.4.1"
+  },
   "engines": {
     "node": ">=18.0.0 <=20.x.x",
     "npm": ">=6.0.0"

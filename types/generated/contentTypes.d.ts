@@ -382,6 +382,7 @@ export interface ApiDiaryListDiaryList extends Schema.CollectionType {
     content: Attribute.Text;
     color: Attribute.String;
     weather: Attribute.String;
+    image: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
