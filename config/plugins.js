@@ -5,7 +5,7 @@ module.exports = ({ env }) => ({
         google: {
           redirectUri: env(
             "GOOGLE_REDIRECT_URI",
-            "http://localhost:3000/login"
+            "http://localhost:3000/api/auth/google/callback"
           ),
         },
       },
